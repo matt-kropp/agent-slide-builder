@@ -2,10 +2,11 @@
   "name": "agent-slide-builder",
   "version": "1.0.0",
   "description": "Test of codex ability to build repo from specification",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "npm --prefix server run dev",
+    "start:client": "npm --prefix client run dev"
   },
-  "author": "",
   "license": "ISC"
 }
